@@ -1,12 +1,4 @@
-.linear{
-  
-background: linear-gradient(180deg, #121212 0%, rgba(18, 18, 18, 0.00) 100%);
-}
-.back{
 
-    background: rgba(18, 18, 18, 0.70);
-   
-}
 @media screen and (max-width:768px) {
     .order{
         order: -1;
@@ -17,6 +9,16 @@ background: linear-gradient(180deg, #121212 0%, rgba(18, 18, 18, 0.00) 100%);
       
         margin-left: auto;
     }
+
     
 }
-   
+@media screen and (max-width:1023px) {
+
+    .span{
+        grid-column-start: span 2;
+        justify-self: center;
+    }
+    
+    
+}
+
